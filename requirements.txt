@@ -1,0 +1,9 @@
+bs4==0.0.2
+openai==1.35.3
+pillow==10.3.0
+pip-chill==1.0.3
+pysocks==1.7.1
+requests==2.31.0
+selenium==4.20.0
+sparqlwrapper==2.0.0
+xvfbwrapper==0.2.9
