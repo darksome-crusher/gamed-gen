@@ -7,11 +7,7 @@ This code uses
 
 to fully automatically generate video game memes.
 
-<center>
-
 ![](img/meme-gameplay-1x1.jpg)
-
-</center>
 
 ## Setup
 
@@ -103,11 +99,30 @@ meme-trivia-2x3.jpg
 The `metadata.json` file contains the following information.
 ```json
 {
-    "title": "Solium Infernum",
+    
     "pageid": 18830587,
-    "category": "Category:2024_video_games",
-    "dbpedia_resource": "http://dbpedia.org/resource/Solium_Infernum",
     "name": "Solium_Infernum",
+    "category": "Category:2024_video_games",
+
+    "title": "Solium Infernum",
+    "abstract": "Solium Infernum is a turn-based strategy computer game for Windows from independent game developer Cryptic Comet, creator of Armageddon Empires, and was released on November 26, 2009. (...)",
+    "plaintext": "Solium Infernum is a turn-based (...)\n\n\n== References ==\n\n\n== External links ==\nOfficial website (original)\nOfficial website (remake)",
+
+    "prompt_genre": "Strategy",
+    "prompt_year": "2009 (for the original release), 2024 (for the remake release)",
+    "extract_year": 2009,
+    "prompt_platforms": "Windows, PC (...)",
+
+    "prompt_captions": {
+        "gameplay": "In Solium Infernum, players compete as archfiends to secure the throne of Hell, engaging in both diplomacy and military tactics to raise their standing among rivals.",
+        "story": "In Solium Infernum, players compete as archfiends vying for the throne of Hell, navigating diplomacy and military tactics to secure their position among rivals, with the game's AI filling in for missing players if necessary.",
+        "fun_fact": "The remake version of Solium Infernum, originally developed by Cryptic Comet, was designed by game developer Anthony Sweet and released by League of Geeks on February 22, 2024, after several release date postponements.",
+        "did_you_know": "Did you know? Solium Infernum, the turn-based strategy game, was met with critical acclaim despite receiving little attention from mainstream gaming press. The remake version, developed by League of Geeks, was highly anticipated, with its release date postponed multiple times before finally launching on February 22, 2024.",
+        "awkward_detail": "Despite its initial release in 2009, the remake of Solium Infernum, a strategic game about battling for the throne of Hell, wasn't released until 2024.",
+        "trivia": "The remake of Solium Infernum, a strategic game about vying for the throne of Hell, was developed by League of Geeks and was initially scheduled for release in 2023, but was eventually delayed and released on February 22, 2024, under the same name."
+    },
+
+    "dbpedia_resource": "http://dbpedia.org/resource/Solium_Infernum",
     "ttl_link": "https://dbpedia.org/data/Solium_Infernum.ttl",
     "ttl": "@prefix dbo:\t<http://dbpedia.org/ontology/> (...)",
     "dbp_genre": [
@@ -118,20 +133,6 @@ The `metadata.json` file contains the following information.
     ],
     "dbp_platform": [
         "http://dbpedia.org/resource/Microsoft_Windows"
-    ],
-    "abstract": "Solium Infernum is a turn-based strategy computer game for Windows from independent game developer Cryptic Comet, creator of Armageddon Empires, and was released on November 26, 2009. (...)",
-    "plaintext": "Solium Infernum is a turn-based (...)\n\n\n== References ==\n\n\n== External links ==\nOfficial website (original)\nOfficial website (remake)",
-    "prompt_genre": "Strategy",
-    "prompt_year": "2009 (for the original release), 2024 (for the remake release)",
-    "prompt_platforms": "Windows, PC (...)",
-    "prompt_captions": {
-        "gameplay": "In Solium Infernum, players compete as archfiends to secure the throne of Hell, engaging in both diplomacy and military tactics to raise their standing among rivals.",
-        "story": "In Solium Infernum, players compete as archfiends vying for the throne of Hell, navigating diplomacy and military tactics to secure their position among rivals, with the game's AI filling in for missing players if necessary.",
-        "fun_fact": "The remake version of Solium Infernum, originally developed by Cryptic Comet, was designed by game developer Anthony Sweet and released by League of Geeks on February 22, 2024, after several release date postponements.",
-        "did_you_know": "Did you know? Solium Infernum, the turn-based strategy game, was met with critical acclaim despite receiving little attention from mainstream gaming press. The remake version, developed by League of Geeks, was highly anticipated, with its release date postponed multiple times before finally launching on February 22, 2024.",
-        "awkward_detail": "Despite its initial release in 2009, the remake of Solium Infernum, a strategic game about battling for the throne of Hell, wasn't released until 2024.",
-        "trivia": "The remake of Solium Infernum, a strategic game about vying for the throne of Hell, was developed by League of Geeks and was initially scheduled for release in 2023, but was eventually delayed and released on February 22, 2024, under the same name."
-    },
-    "extract_year": 2009
+    ]
 }
 ```
